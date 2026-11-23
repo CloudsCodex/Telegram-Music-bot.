@@ -1,0 +1,9 @@
+# Developer by : Mr_Manas_Op
+.env
+.git
+data/
+logs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/

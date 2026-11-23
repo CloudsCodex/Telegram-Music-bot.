@@ -1,0 +1,14 @@
+# Developer by : Mr_Manas_Op
+services:
+  musicbot:
+    build: .
+    container_name: telegram-music-bot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - musicbot_data:/app/data
+      - musicbot_logs:/app/logs
+
+volumes:
+  musicbot_data:
+  musicbot_logs:
